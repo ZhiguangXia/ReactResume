@@ -12,5 +12,6 @@ module.exports = override(
     rewireAliases.aliasesOptions({
     '@': path.resolve(__dirname, `${paths.appSrc}/`),
     '@components': path.resolve(__dirname, `${paths.appSrc}/components/`),
+    '@static': path.resolve(__dirname, `${paths.appSrc}/static/`),
     }),
 );

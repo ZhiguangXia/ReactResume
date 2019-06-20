@@ -2,15 +2,15 @@ import React from 'react';
 import { Avatar } from 'antd';
 import './index.css';
 
-function Profile() {
-    const data={
-        imgUrl: './profile.jpg',
-    }
+const Profile = props => {
+  const profileData = props.profileData;
+
   return (
     <div className="Profile">
       <div className="Profile-img">
-          <Avatar size={200} src={data.imgUrl} icon="user"/>
+          <Avatar size={200} src={profileData.imgUrl} icon="user"/>
       </div>
+      <h1>{profileData.name}</h1>
     </div>
   );
 }
