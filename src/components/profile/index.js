@@ -1,14 +1,15 @@
 import React from 'react';
+import { Avatar } from 'antd';
 import './index.css';
 
 function Profile() {
     const data={
-        imgUrl: '../../static/profile.jpg',
+        imgUrl: './profile.jpg',
     }
   return (
     <div className="Profile">
       <div className="Profile-img">
-          <img src={data.imgUrl} alt="我的头像" width="200" height="200" />
+          <Avatar size={200} src={data.imgUrl} icon="user"/>
       </div>
     </div>
   );
