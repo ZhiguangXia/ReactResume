@@ -1,0 +1,14 @@
+.Profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffffff;
+    margin: 10px;
+    padding: 20px;
+}
+
+.Profile-img {
+    width: 200px;
+    height: 200px;
+}

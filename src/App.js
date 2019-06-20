@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'antd';
+import Profile from './components/profile';
 import './App.css';
 
 function App() {
@@ -7,8 +8,7 @@ function App() {
     <div className="App">
       <Row type="flex" justify="center" align="top">
       <Col xs={24} sm={24} lg={8}>
-        <div  className={'App-left'}>
-        </div>
+          <Profile></Profile>
       </Col>
       <Col xs={24} sm={24} lg={16}>
         <div  className={'App-right'}>
