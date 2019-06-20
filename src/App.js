@@ -1,21 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Button }  from 'antd';
-import './App.css';
+import { Row, Col } from 'antd';
+import './App.less';
 
 function App() {
+  const DemoBox = props => <p className={'App-box'}>{props.children}</p>;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          测试中文字体
-        </p>
-        <div>
-          <Button type="primary">Button</Button>
-        </div>
+      <Row type="flex" justify="center" align="top">
+      <Col span={4}>
+        <DemoBox value={100}>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox value={50}>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox value={120}>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox value={80}>col-4</DemoBox>
+      </Col>
+    </Row>
 
-      </header>
+      
     </div>
   );
 }
