@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import Profile from './components/profile';
-import './App.css';
+import Profile from '@components/profile';
+import '@/App.css';
 
 function App() {
   return (
