@@ -1,6 +1,12 @@
 {
     "basics":{
+        "avatar": "./profile.jpg",
         "name": "蔡真真",
-        "imgUrl": "./profile.jpg"
+        "position": "web前端开发工程师",
+        "email": "caizhenzhen94@outlook.com",
+        "phone": "176-0069-1591" ,
+        "github": "https://github.com/zhenzhencai",
+        "zcool": "https://www.zcool.com.cn/u/1995353",
+        "wechat": "./wechat.jpg"
     }
 }

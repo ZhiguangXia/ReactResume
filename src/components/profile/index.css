@@ -15,3 +15,25 @@
     background-color: #f0f0f0;
     border-radius: 50%;
 }
+
+.Profile-name {
+    margin: 20px 0 10px !important;
+}
+
+.Profile-position {
+    margin: 0 !important;
+    color: #777777 !important;
+}
+
+.Profile-phone {
+    margin: 0 0 10px; 
+}
+
+.Profile-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    margin: 0 !important;
+}
+
