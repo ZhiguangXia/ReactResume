@@ -1,0 +1,12 @@
+.Award {
+    width: 100%;
+    text-align: left;
+}
+
+.Award-title {
+    margin: 0 !important;
+}
+
+.Award-year {
+    float: right;
+}
