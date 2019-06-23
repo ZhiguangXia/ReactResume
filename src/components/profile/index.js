@@ -12,6 +12,15 @@ const Profile = props => {
       <Avatar size={200} src={profileData.wechat} icon="user"/>
     </div>
   );
+  // 自我介绍
+  const introduce = (
+    <Paragraph>
+          本人在校成绩优异，性格乐观开朗，工作认真负责，长期担任干部。
+          有<Text mark>四年前端开发经验</Text>，自我驱动力强，热爱尝试新事物。
+          在校期间从事可视分析相关研究，对web的技术发展趋势及前端工程化解决方案有浓厚的兴趣。
+          <Text mark>寻找Web前端/可视化工程师岗位</Text>。
+    </Paragraph>
+  )
 
   return (
     <div className="Profile">
@@ -32,6 +41,7 @@ const Profile = props => {
             <a href={profileData.zcool} target="_blank"><Icon type="slack-circle" theme="filled" style={{ fontSize: '24px', color: 'rgba(0, 0, 0, 0.85)' }}/></a>
         </Paragraph>
         <Divider />
+        {introduce}
     </div>
   );
 }
