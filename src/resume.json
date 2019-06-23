@@ -40,12 +40,12 @@
             },
             {
                 "level": "国家级 一等奖",
-                "year": "2018年7月",
+                "year": "2018年07月",
                 "name": "ChinaVis2018数据可视化挑战赛"
             },
             {
                 "level": "国家级 三等奖",
-                "year": "2017年7月",
+                "year": "2017年07月",
                 "name": "ChinaVis2017数据可视化挑战赛"
             },
             {
@@ -73,6 +73,21 @@
                 "year": "2015年08月",
                 "name": "第四届中国创新创业大赛暨第三届辽宁创新创业大赛"
             }
+        ]
+    },
+    "paper":{
+        "title": "论文成果",
+        "list": [
+            {
+                "title": "isAnon: Flow-Based Anonymity Network Traffic Identification Using XGBoost.",
+                "conference": "IJCNN",
+                "level": "CCF-C"
+            },
+            {
+                "title": "A Session-Packets-based Encrypted Traffic Classification using Capsule Neural Networks. ",
+                "conference": "HPCC",
+                "level": "CCF-C"
+            } 
         ]
     }
 }

@@ -3,12 +3,14 @@ import { Row, Col } from 'antd';
 import Profile from '@components/profile';
 import Education from '@components/education';
 import Award from '@components/award';
+import Paper from '@components/paper';
 import '@/App.css';
 
 const App = props => {
   const profileData = props.data.basics;
   const educationData = props.data.education;
   const awardData = props.data.award;
+  const paperData = props.data.paper;
   return (
     <div className="App">
       <Row type="flex" justify="center" align="top">
@@ -19,6 +21,7 @@ const App = props => {
         <div  className={'App-right'}>
           <Education educationData={educationData} />
           <Award awardData={awardData} />
+          <Paper paperData={paperData} />
         </div>
       </Col>
     </Row>

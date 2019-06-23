@@ -1,0 +1,12 @@
+.Paper {
+    width: 100%;
+    text-align: left;
+}
+
+.Paper-title {
+    margin: 0 !important;
+}
+
+.Paper-level {
+    float: right;
+}
