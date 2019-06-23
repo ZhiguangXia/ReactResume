@@ -1,0 +1,17 @@
+.Education {
+    width: 100%;
+    text-align: left;
+}
+
+.Education-title {
+    margin: 0 !important;
+}
+
+.Education-school {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+}
+.Education-year {
+    float: right;
+}

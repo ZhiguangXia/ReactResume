@@ -8,5 +8,25 @@
         "github": "https://github.com/zhenzhencai",
         "zcool": "https://www.zcool.com.cn/u/1995353",
         "wechat": "./wechat.jpg"
+    },
+    "education":{
+        "list": [
+            {
+                "school": "中国科学院大学（保送） ",
+                "year": "2017年-至今",
+                "field": "计算机科学与技术",
+                "degree":"工学硕士",
+                "strong": "发表CCF-C论文两篇，",
+                "desctiption":"优秀学生干部*2，优秀三好学生*2"
+            },
+            {
+                "school": "大连理工大学 ",
+                "year": "2013年-2017年",
+                "field": "软件工程",
+                "degree":"学士",
+                "strong": "综合排名：3/372，国家奖学金*2，",
+                "desctiption":"校单项奖学金*10，辽宁省优秀毕业生"
+            }
+        ]
     }
 }

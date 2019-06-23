@@ -9,8 +9,8 @@
 
 .App-right {
   background-color:#ffffff;
-  height: 100px;
   margin: 10px 10px 10px 0;
+  padding: 20px;
 }
 
 @media (max-width: 992px) {
