@@ -89,5 +89,45 @@
                 "level": "CCF-C"
             } 
         ]
+    },
+    "project":{
+        "title": "项目经历",
+        "list": [
+            {
+                "name": "基于内网数据的威胁情报可视分析系统",
+                "year": "2018年3月-2018年7月",
+                "url": "https://github.com/zhenzhencai/ChinaVisProject",
+                "technology":[
+                    "Vue",
+                    "Echarts",
+                    "D3.js",
+                    "webpack",
+                    "Express",
+                    "Tableau"
+                ],
+                "desctiption":[
+                    "ChinaVis2018年数据挑战赛一等奖作品。独立负责可视分析和前端开发。",
+                    "使用Echarts + D3 + Tableau实现多视图协同可视分析，对大量的多维异构数据进行聚类，发现HighTech公司的组织结构、行为模式和异常事件，总结有价值的威胁情报。",
+                    "使用vue搭建前端可视分析展示平台。对可复用的图形(如力导向图、玫瑰图、桑基图、平行坐标图等等）进行组件化开发。axios实现前后端数据交互，vuex实现多视图数据通信"
+                ]
+            },
+            {
+                "name": "威胁情报聚合查询和可视分析系统",
+                "year": "2016年12月-2017年7月",
+                "url": "https://github.com/zhenzhencai/ThreatVis",
+                "technology":[
+                    "Vue",
+                    "D3.js",
+                    "Element-UI",
+                    "webSocket",
+                    "webpack",
+                    "Node"
+                ],
+                "desctiption":[
+                    "负责可视分析模块开发。使用D3 + Vue实现威胁情报多源异构数据的交互式关联钻取可视化，追踪溯源攻击者的真实信息。改进力引导-退火算法布局关联图形。",
+                    "实现情报多维度查询功能（11个关联库），使用webSocket实现全双工通信，使用virtual list渲染可视区域的列表，实现长列表性能优化"      
+                ]
+            }
+        ]
     }
 }

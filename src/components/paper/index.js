@@ -9,13 +9,13 @@ const Paper = props => {
   
   return (
     <div className="Paper">
-       <Divider orientation="left"><Title level={3} className="Paper-title"><Icon type="crown" /> {paperData.title}</Title></Divider>
+       <Divider orientation="left"><Title level={3} className="Paper-title"><Icon type="highlight" /> {paperData.title}</Title></Divider>
        <Paragraph>
        {paperData.list.map((item, index) => (
           <div key={index}>
             <Text>{item.title} </Text> 
             <Text mark>{item.conference}</Text> 
-            <Text className="Paper-level" strong>{item.level}</Text>
+            <Text className="Paper-level" type="secondary">{item.level}</Text>
           </div>
     ))}
        </Paragraph>   

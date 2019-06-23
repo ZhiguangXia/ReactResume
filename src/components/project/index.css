@@ -1,0 +1,17 @@
+.Project {
+    width: 100%;
+    text-align: left;
+}
+
+.Project-title {
+    margin: 0 !important;
+}
+
+.Project-name {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+}
+.Project-year {
+    float: right;
+}

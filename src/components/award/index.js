@@ -9,13 +9,13 @@ const Award = props => {
   
   return (
     <div className="Award">
-       <Divider orientation="left"><Title level={3} className="Award-title"><Icon type="crown" /> {awardData.title}</Title></Divider>
+       <Divider orientation="left"><Title level={3} className="Award-title"><Icon type="trophy" /> {awardData.title}</Title></Divider>
        <Paragraph>
        {awardData.list.map((item, index) => (
           <div key={index}>
             <Text strong>{item.level}， </Text> 
             <Text>{item.name} </Text> 
-            <Text className="Award-year" strong>{item.year}</Text>
+            <Text className="Award-year" type="secondary">{item.year}</Text>
           </div>
     ))}
        </Paragraph>   
