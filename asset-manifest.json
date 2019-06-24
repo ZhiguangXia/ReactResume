@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ReactResume/static/css/main.a89620ad.chunk.css",
+    "main.js": "/ReactResume/static/js/main.5fea12a1.chunk.js",
+    "main.js.map": "/ReactResume/static/js/main.5fea12a1.chunk.js.map",
+    "runtime~main.js": "/ReactResume/static/js/runtime~main.1ce63500.js",
+    "runtime~main.js.map": "/ReactResume/static/js/runtime~main.1ce63500.js.map",
+    "static/css/2.108b2d60.chunk.css": "/ReactResume/static/css/2.108b2d60.chunk.css",
+    "static/js/2.b7d43b4a.chunk.js": "/ReactResume/static/js/2.b7d43b4a.chunk.js",
+    "static/js/2.b7d43b4a.chunk.js.map": "/ReactResume/static/js/2.b7d43b4a.chunk.js.map",
+    "index.html": "/ReactResume/index.html",
+    "precache-manifest.34913d25241f0c54f7e034ff1c7d766b.js": "/ReactResume/precache-manifest.34913d25241f0c54f7e034ff1c7d766b.js",
+    "service-worker.js": "/ReactResume/service-worker.js",
+    "static/css/2.108b2d60.chunk.css.map": "/ReactResume/static/css/2.108b2d60.chunk.css.map",
+    "static/css/main.a89620ad.chunk.css.map": "/ReactResume/static/css/main.a89620ad.chunk.css.map"
+  }
+}
