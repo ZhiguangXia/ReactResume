@@ -24,7 +24,9 @@
     width: 1200px;
   }
 } 
-
+.App-footer {
+  margin-bottom: 10px;
+}
 
 
 

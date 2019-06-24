@@ -18,21 +18,23 @@ const App = props => {
   return (
     <div className="App">
       <Row type="flex" justify="center" align="top">
-      <Col xs={24} sm={24} lg={8}>
-        <Profile profileData={profileData} />
-      </Col>
-      <Col xs={24} sm={24} lg={16}>
-        <div  className={'App-right'}>
-          <Education educationData={educationData} />
-          <Work workData={workData} />
-          <Project projectData={projectData} />
-          <Paper paperData={paperData} />
-          <Award awardData={awardData} />
-        </div>
-      </Col>
-    </Row>
-
-      
+        <Col xs={24} sm={24} lg={8}>
+          <Profile profileData={profileData} />
+        </Col>
+        <Col xs={24} sm={24} lg={16}>
+          <div  className={'App-right'}>
+            <Education educationData={educationData} />
+            <Work workData={workData} />
+            <Project projectData={projectData} />
+            <Paper paperData={paperData} />
+            <Award awardData={awardData} />
+          </div>
+        </Col>
+      </Row>
+      <Row justify="center" aligin="center" className="App-footer">
+          Copyright (c) 2019-present ZhenzhenCai. The full source code can be found in  
+          <a href="https://github.com/zhenzhencai/ReactResume" target="_blank"> my Github repo</a>
+      </Row>
     </div>
   );
 }
