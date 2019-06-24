@@ -16,7 +16,7 @@ const Project = props => {
             <div>
               <Text className="Project-name">{item.name} </Text> 
               <Text>
-                <a href={item.url} target="_blank"><Icon type="github" style={{ fontSize: '18px'}}/></a>
+                <a href={item.url} target="_blank" rel="noopener noreferrer"><Icon type="github" style={{ fontSize: '18px'}}/></a>
               </Text> 
               <Text className="Project-year" type="secondary">{item.year}</Text>
             </div>

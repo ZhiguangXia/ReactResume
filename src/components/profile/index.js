@@ -34,11 +34,11 @@ const Profile = props => {
         <Text strong ><Icon type="mail" theme="twoTone" /> {profileData.email}</Text>
         <Divider />
         <Paragraph className="Profile-link">
-            <a href={profileData.github} target="_blank"><Icon type="github" theme="filled" className="Profile-link-icon"/></a>
+            <a href={profileData.github} target="_blank" rel="noopener noreferrer"><Icon type="github" theme="filled" className="Profile-link-icon"/></a>
             <Popover content={wechat} title="扫码联系我" trigger="hover">
-              <a href="javascript:void(0);"><Icon type="wechat" theme="filled" className="Profile-link-icon"/></a>
+              <Icon type="wechat" theme="filled" className="Profile-link-icon"/>
             </Popover>
-            <a href={profileData.zcool} target="_blank"><Icon type="slack-circle" theme="filled" className="Profile-link-icon"/></a>
+            <a href={profileData.zcool} target="_blank" rel="noopener noreferrer"><Icon type="slack-circle" theme="filled" className="Profile-link-icon"/></a>
         </Paragraph>
         <Divider />
         {introduce}

@@ -33,7 +33,7 @@ const App = props => {
       </Row>
       <Row justify="center" aligin="center" className="App-footer">
           Copyright (c) 2019-present ZhenzhenCai. The full source code can be found in  
-          <a href="https://github.com/zhenzhencai/ReactResume" target="_blank"> my Github repo</a>
+          <a href="https://github.com/zhenzhencai/ReactResume" target="_blank" rel="noopener noreferrer"> my Github repo</a>
       </Row>
     </div>
   );
