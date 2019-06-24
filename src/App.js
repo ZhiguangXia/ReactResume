@@ -5,6 +5,7 @@ import Education from '@components/education';
 import Award from '@components/award';
 import Paper from '@components/paper';
 import Project from '@components/project';
+import Work from '@components/work';
 import '@/App.css';
 
 const App = props => {
@@ -13,6 +14,7 @@ const App = props => {
   const awardData = props.data.award;
   const paperData = props.data.paper;
   const projectData = props.data.project;
+  const workData = props.data.work;
   return (
     <div className="App">
       <Row type="flex" justify="center" align="top">
@@ -22,9 +24,10 @@ const App = props => {
       <Col xs={24} sm={24} lg={16}>
         <div  className={'App-right'}>
           <Education educationData={educationData} />
-          <Award awardData={awardData} />
-          <Paper paperData={paperData} />
+          <Work workData={workData} />
           <Project projectData={projectData} />
+          <Paper paperData={paperData} />
+          <Award awardData={awardData} />
         </div>
       </Col>
     </Row>

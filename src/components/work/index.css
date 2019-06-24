@@ -1,22 +1,21 @@
-.Project {
+.Work {
     width: 100%;
     text-align: left;
 }
 
-.Project-title {
+.Work-title {
     margin: 0 !important;
 }
 
-.Project-name {
+.Work-name {
     font-size: 18px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.85);
 }
-.Project-year {
+.Work-year {
     float: right;
 }
-
-.Project .ant-tag {
+.Work .ant-tag {
     line-height: 14px;
     font-size: 8px;
     padding: 0 5px;

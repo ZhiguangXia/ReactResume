@@ -9,7 +9,7 @@ const Education = props => {
   
   return (
     <div className="Education">
-       <Divider orientation="left"><Title level={3} className="Education-title"><Icon type="bank" /> {educationData.title}</Title></Divider>
+       <Divider orientation="left"><Title level={3} className="Education-title"><Icon type="read" /> {educationData.title}</Title></Divider>
       {educationData.list.map((item, index) => (
           <Paragraph key={index}>
             <div>

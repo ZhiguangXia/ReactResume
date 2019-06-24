@@ -36,4 +36,11 @@
     width: 100px;
     margin: 0 !important;
 }
-
+.Profile-link .Profile-link-icon {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.85);
+}
+.Profile-link .Profile-link-icon :hover {
+    font-size: 28px;
+    color: rgb(24,144,255);
+}
