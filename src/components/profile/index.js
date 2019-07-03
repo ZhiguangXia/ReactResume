@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Typography, Divider, Icon, Popover} from 'antd';
+import { Avatar, Typography, Divider, Icon, Popover, Button} from 'antd';
 import './index.css';
 
 const { Title, Text, Paragraph } = Typography;
@@ -22,6 +22,10 @@ const Profile = props => {
     </Paragraph>
   )
 
+  const downloadResume = () => {
+    window.location.assign('https://github.com/zhenzhencai/resume-web/raw/master/resume-zhenzhencai-new.pdf');
+  }
+
   return (
     <div className="Profile">
       <div className="Profile-img">
@@ -42,6 +46,10 @@ const Profile = props => {
         </Paragraph>
         <Divider />
         {introduce}
+        <Divider />
+        <Button type="primary" icon="download" block onClick={downloadResume}>
+          下载我的简历
+        </Button>
     </div>
   );
 }
