@@ -58,5 +58,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run deploy`
+发布该项目到github page，
+参考链接：[借助Github Page把你的React项目部署到线上环境](https://blog.csdn.net/xieluoxixi/article/details/86495198)
+
 
 Copyright (c) 2019-present ZhenzhenCai
