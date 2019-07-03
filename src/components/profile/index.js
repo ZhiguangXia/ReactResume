@@ -23,7 +23,7 @@ const Profile = props => {
   )
 
   const downloadResume = () => {
-    window.location.assign('https://github.com/zhenzhencai/resume-web/raw/master/resume-zhenzhencai-new.pdf');
+    window.location.assign('https://github.com/zhenzhencai/resume-web/raw/master/resume-autumn-recruit/resume-zhenzhencai-fontend.pdf');
   }
 
   return (
