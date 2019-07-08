@@ -15,9 +15,9 @@
   <a href="https://github.com/ant-design/ant-design">
     <img src="https://img.shields.io/badge/antd-3.19.6-brightgreen.svg" alt="antd">
   </a>
-  <a href="https://github.com/timarney/react-app-rewired">
+  <!-- <a href="https://github.com/timarney/react-app-rewired">
     <img src="https://img.shields.io/badge/react-app-rewired-2.1.3-brightgreen.svg" alt="react-app-rewired">
-  </a>
+  </a> -->
   <a href="https://github.com/zhenzhencai/ChinaVisProject/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>

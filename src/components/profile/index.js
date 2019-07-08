@@ -23,7 +23,8 @@ const Profile = props => {
   )
 
   const downloadResume = () => {
-    window.location.assign('https://github.com/zhenzhencai/resume-web/raw/master/resume-autumn-recruit/resume-zhenzhencai-fontend.pdf');
+    //  简历下载的在线链接
+    window.location.assign('https://github.com/zhenzhencai/resume-web/raw/master/resume-zhenzhencai.pdf');
   }
 
   return (

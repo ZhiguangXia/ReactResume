@@ -1,6 +1,6 @@
 {
     "basics":{
-        "avatar": "./profile.jpg",
+        "avatar": "./profile.png",
         "name": "蔡真真",
         "position": "web前端开发工程师",
         "email": "caizhenzhen94@outlook.com",
@@ -26,7 +26,7 @@
                 "field": "软件工程",
                 "degree":"学士",
                 "strong": "综合排名：3/372，国家奖学金*2，",
-                "desctiption":"校单项奖学金*10，辽宁省优秀毕业生"
+                "desctiption":"校单项奖学金*10，辽宁省优秀毕业生，优秀学生党员"
             }
         ]
     },
@@ -136,6 +136,7 @@
                     "React",
                     "antd",
                     "Echarts",
+                    "D3.js",
                     "React-Redux",
                     "React Router"
                 ],
