@@ -24,7 +24,7 @@ const Profile = props => {
 
   const downloadResume = () => {
     //  简历下载的在线链接
-    window.location.assign('https://github.com/zhenzhencai/resume-web/raw/master/resume-zhenzhencai.pdf');
+    window.location.assign('https://github.com/zhenzhencai/resume-web/raw/master/Resume-zhenzhencai.pdf');
   }
 
   return (
