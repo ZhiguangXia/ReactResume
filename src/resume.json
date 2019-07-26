@@ -136,7 +136,6 @@
                     "React",
                     "antd",
                     "Echarts",
-                    "D3.js",
                     "React-Redux",
                     "React Router"
                 ],
@@ -156,12 +155,12 @@
                 "year": "2019年05月-至今",
                 "department": "头条研发·头条号技术",
                 "technology":[
-                    "Html5",
                     "React",
-                    "React-Redux",
-                    "ECMAScript 6",
+                    "Taro",
+                    "Html5",
                     "TypeScript",
-                    "Taro"
+                    "ECMAScript 6",
+                    "rematch"
                 ],
                 "desctiption":[
                     "参与头条主端精品课频道改版、需求维护、体验优化。",
